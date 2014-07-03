@@ -5,109 +5,202 @@
 /* this are the features of my body */
 
 body {
-	width: 1200px;
-	margin: 0 auto;
-	background-image: url(http://cdn.knbcoaches.com/images/www.imageafter.com/dbase/textures/walls/b10walls029.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(http://cdn.knbcoaches.com/images/www.imageafter.com/dbase/textures/walls/b10walls029.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* this are the features of the text
 * that could be white or black */
 
-.text_central {
-	color: black;
-	font-family: Courier;
-	font-size: 40px;
-	text-align: center;
-    text-decoration: none;
-}
-
 .text_white {
-	color: white;
-	font-family: Courier;
-	font-size: 10px;
+    color: white;
+    font-family: Courier;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
     text-decoration: none;
 }
 
 .text_black {
-	color: black;
-	font-family: Courier;
-	font-size: 25px;
+    color: black;
+    font-family: Courier;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.text_black_smaller {
+    color: black;
+    font-family: Courier;
+    font-size: 20px;
     text-decoration: none;
 }
 
-/* this are my boxes */
-
-.top{
-    width: 300px;
-    height: 100px;
-    background-color: white;
-    float:right;
-    margin: 30px 30px 50px 0px;
-    display: block;
+.text_black_smaller_bottom {
+    color: black;
+    font-family: Courier;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 20px;    
 }
 
+.text_central {
+    color: black;
+    font-family: Courier;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text_central_big {
+    color: black;
+    font-family: Courier;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #b80000;
+}
+
+/* this are the features of the containers */
+.row_zero {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    border: none;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    float:right;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row_one {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    border: none;
+}
+
+.container_left {
+    width: 300px;
+    height: 700px;
+    float: left;
+    margin: 0 auto;
+}
 
 .photo {
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    background-color: white;
     float:left;
-    margin-left: 100px;
-    margin-top: 80px;
+    margin-top: 65px;
+    margin-left: 150px;
+    border: 10px solid #dad7d2;
+}
+
+.container_right{
+    width: 800px;
+    height: 700px;
+    float: right;
+    margin: 0 auto;
+}
+
+.top{
+    width: 550px;
+    height: 5px;
+    background-color: #dad7d2;
+    float:right;
+    margin-top: 65px;
+    margin-right: 0px;
 }
 
 .education {
     width: 300px;
-    height: 400px;
-    background-color: white;
-    float:left;
-    margin: 0px 30px 30px 30px;
-    clear: left;
+    height: 415px;
+    background-color: #dad7d2;
+    float:right;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    overflow: auto;
+}
+
+.languages {
+    width: 300px;
+    height: 415px;
+    background-color: #dad7d2;
+    float:right;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    overflow: auto;    
+}
+
+.row_two {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    border: none;
 }
 
 .work {
     width: 1000px;
     height: 300px;
-    background-color: white;
+    background-color: #dad7d2;
     float: left;
-    margin: 30px 100px 30px 100px;
+    margin: 50px 100px 30px 100px;
     overflow: auto;
 }
 
 .skill {
     width: 1000px;
     height: 300px;
-    background-color: white;
+    background-color: #dad7d2;
     float: left;
     margin: 30px 100px 30px 100px;
     overflow: auto;
 }
 
-.container_left {
-    width: 300px;
-    height: 500px;
+footer {
+    width: 1000px;
+    height: 50px;
+    margin: 0px 100px 50px 100px;
 }
 
-.container_right{
-    width: 700px;
-    height: 700px;
-    float: right;
-    clear: left;
+.button_left {
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
-.container_central{
-
+.button_right {
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    margin-left: 25px;
 }
 
-button {
-	width: 500px;
-	height: 30px;
-	background-color: black;
-	border: none;
-    margin: 50px 0px 50px 80px;
-    float: left;
-}
+
+
+
+
+
+
+
 
