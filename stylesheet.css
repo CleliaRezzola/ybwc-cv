@@ -1,5 +1,5 @@
 * {
-    
+    box-sizing: border-box;
 }
 
 /* this are the features of my body */
@@ -15,23 +15,26 @@ body {
 /* this are the features of the text
 * that could be white or black */
 
-.textcentral {
+.text_central {
 	color: black;
 	font-family: Courier;
 	font-size: 40px;
 	text-align: center;
+    text-decoration: none;
 }
 
-.textwhite {
+.text_white {
 	color: white;
 	font-family: Courier;
 	font-size: 10px;
+    text-decoration: none;
 }
 
-.textblack {
+.text_black {
 	color: black;
 	font-family: Courier;
 	font-size: 25px;
+    text-decoration: none;
 }
 
 /* this are my boxes */
@@ -41,44 +44,62 @@ body {
     height: 100px;
     background-color: white;
     float:right;
-    margin-right: 30px;
-    margin-top: 30px;
+    margin: 30px 30px 50px 0px;
     display: block;
 }
 
 
-.A {
+.photo {
     width: 300px;
     height: 300px;
     margin: 20px;
     background-color: white;
     float:left;
-    margin: 100px 30px 30px 30px;
+    margin-left: 100px;
+    margin-top: 80px;
 }
 
-.B {
+.education {
     width: 300px;
     height: 400px;
     background-color: white;
-    float:right;
-    margin: 0px 30px 0px 30px;
+    float:left;
+    margin: 0px 30px 30px 30px;
     clear: left;
 }
 
-.C {
-    width: 1000px;
-    height: 600px;
-    background-color: white;
-    float: left;
-    margin: 30px 100px 30px 100px;
-}
-
-.D {
+.work {
     width: 1000px;
     height: 300px;
     background-color: white;
     float: left;
     margin: 30px 100px 30px 100px;
+    overflow: auto;
+}
+
+.skill {
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 30px 100px 30px 100px;
+    overflow: auto;
+}
+
+.container_left {
+    width: 300px;
+    height: 500px;
+}
+
+.container_right{
+    width: 700px;
+    height: 700px;
+    float: right;
+    clear: left;
+}
+
+.container_central{
+
 }
 
 button {
@@ -86,5 +107,7 @@ button {
 	height: 30px;
 	background-color: black;
 	border: none;
+    margin: 50px 0px 50px 80px;
+    float: left;
 }
 
